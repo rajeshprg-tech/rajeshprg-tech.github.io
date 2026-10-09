@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajesh S | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.7;
+    }
+    header {
+      padding: 18px 8%;
+      background: #111c32;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header h2 { color: #38bdf8; margin: 0; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    nav a:hover { color: #38bdf8; }
+    section { padding: 55px 10%; }
+    .hero { text-align: center; padding: 90px 10%; }
+    .hero h1 { font-size: 42px; margin-bottom: 5px; }
+    .accent { color: #38bdf8; }
+    .muted { color: #b6c3d6; }
+    .button {
+      display: inline-block;
+      background: #0284c7;
+      color: white;
+      padding: 10px 20px;
+      margin: 10px 5px;
+      border-radius: 7px;
+      text-decoration: none;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 22px;
+      border-radius: 12px;
+      border: 1px solid #334155;
+    }
+    h2 { color: #38bdf8; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111c32;
+    }
+    a { overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>Rajesh S.</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <p class="accent">BCA STUDENT | ASPIRING IT PROFESSIONAL</p>
+  <h1>Hello, I'm <span class="accent">Rajesh S</span></h1>
+  <p class="muted">
+    I am a BCA student interested in programming,
+    web development and software technologies.
+    I enjoy learning new skills and building projects.
+  </p>
+  <a class="button" href="#projects">View My Projects</a>
+  <a class="button" href="#contact">Contact Me</a>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a Bachelor of Computer Applications (BCA) student
+    developing my technical and problem-solving skills.
+    I have worked on academic projects and am eager to
+    apply my knowledge to real-world IT challenges.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="cards">
+    <div class="card"><h3>Programming</h3>
+      <p>Java, Python (add only languages you know)</p></div>
+    <div class="card"><h3>Web Development</h3>
+      <p>HTML, CSS, JavaScript (edit to match your skills)</p></div>
+    <div class="card"><h3>Tools</h3>
+      <p>Git, GitHub, VS Code (add tools you have used)</p></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>My Projects</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Java Ticket Booking System</h3>
+      <p>
+        An academic project developed using Java to practise
+        programming logic and ticket booking operations.
+      </p>
+      <a class="accent" href="https://github.com/">Add project link</a>
+    </div>
+    <div class="card">
+      <h3>Smart Campus Management</h3>
+      <p>
+        An academic project idea focused on improving campus
+        management and making campus-related tasks easier.
+      </p>
+      <a class="accent" href="https://github.com/">Add project link</a>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <h3>Bachelor of Computer Applications (BCA)</h3>
+    <p>College: Vellore Institute Of Technology</p>
+    <p>CGPA:7.05</p>
+    <p>12th Standard:84%</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: <a class="accent"
+      href="mailto:yourmail@example.com">rajeshsaravanan777@gmail.com</a></p>
+  <p>GitHub: <a class="accent"
+      href="https://github.com/">Add your GitHub profile</a></p>
+  <p>LinkedIn: <a class="accent"
+      href="https://www.linkedin.com/">Add your LinkedIn profile</a></p>
+</section>
+
+<footer>
+  <p>© 2026 Rajesh S. | Student Portfolio</p>
+</footer>
+
+</body>
+</html>
